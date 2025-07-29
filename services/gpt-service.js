@@ -30,7 +30,7 @@ class GptService extends EventEmitter {
        Prompt Template (external file with {{mustache}} tokens)
     -------------------------------------------------------------- */
     const template = fs.readFileSync(
-      path.join(__dirname, '../prompts/cc.txt'),
+      path.join(__dirname, '../prompts/jenny-benefits.txt'),
       'utf8'
     );
 

@@ -19,7 +19,7 @@ const app = express();
 
 // Allow requests from your Netlify domain
 app.use(cors({
-  origin: 'https://effervescent-mandazi-4b266d.netlify.app'
+  origin: 'https://deluxe-gecko-b796b6.netlify.app'
 }));
 ExpressWs(app);
 app.use(express.json());
